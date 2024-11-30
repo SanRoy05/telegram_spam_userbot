@@ -5,8 +5,8 @@ from art import tprint
 from pathlib import Path
 from config import api_id, api_hash, phone_number
 
-app = Client("my_account", api_id=api_id,
-             api_hash=api_hash, phone_number=phone_number)
+app = Client("my_account", api_id="27943571",
+             api_hash="169551db42de66ed72357e81fea1ac87", phone_number="8584900905")
 
 
 def spam_message():
